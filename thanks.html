@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cảm ơn!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            max-width: 400px;
+            animation: fadeIn 2s;
+        }
+
+        h1 {
+            color: #d63384;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.2em;
+        }
+
+        .heart {
+            color: red;
+            font-size: 2em;
+            animation: heartbeat 1.5s infinite;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes heartbeat {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Happy Birthday to </h1>
+        <h1>Van Anh!</h1>
+        <p>"Chúc mừng sinh nhật tuổi 19! 🎉
+            Tuổi 19 là cột mốc tuyệt vời, một bước chuyển mình giữa những ước mơ thanh xuân và con đường trưởng thành
+            phía trước. Mong rằng năm nay sẽ mang đến cho bạn thật nhiều niềm vui, sức khỏe và những cơ hội mới. Hãy
+            luôn tự tin theo đuổi đam mê, khám phá thế giới và tận hưởng từng khoảnh khắc đáng giá.
+            Chúc em một tuổi 19 rực rỡ, tràn đầy năng lượng và hạnh phúc!"</p>
+        <span class="heart">❤</span>
+    </div>
+</body>
+
+</html>
